@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+body {
+    font-family: 'Outfit', serif;
+    padding: 4rem;
+}
+
+h1 > span {
+    color: red;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: darkslategray;
+}

@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    border: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+button {
+    margin: 2rem;
+    background-color: #827bbf;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;    
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    background-color: #6559be;
+    transition: 0.5s;
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.modal.open {
+    display: flex;
+}

@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+body {
+    font-family: 'Outfit', serif;
+    transition: background-color 0.8s;
+}
+
+section#color-display {
+    margin: 100px auto;
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: .5rem;
+}
+
+section#color-display h1 {
+    font-weight: 900;
+}
+
+section#color-display #new-color-button {
+    border: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;    
+    border-radius: 0.25rem;
+    background-color: lightcoral;
+    width: 100%;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+
+section#color-display #new-color-button:hover {
+    background-color: #ec625f;
+    transition: 0.5s;
+}
